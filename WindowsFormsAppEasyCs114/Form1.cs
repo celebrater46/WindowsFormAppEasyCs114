@@ -49,7 +49,7 @@ namespace WindowsFormsAppEasyCs114
             tc = c;
         }
 
-        public void run()
+        public void run() 
         {
             StreamWriter sw = new StreamWriter(tc.GetStream());
             StreamReader sr = new StreamReader(tc.GetStream());
